@@ -12,7 +12,7 @@ namespace TrainingPlan.Models
         public string StudentName { get; set; }
         public string StudentPassWord { get; set; }
         public string StudentFaculty { get; set; }
-        public string Grade { get; set; }
+        public int Grade { get; set; }
         public string StudentMajor { get; set; }
     }
 }

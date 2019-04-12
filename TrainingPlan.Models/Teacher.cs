@@ -23,7 +23,7 @@ namespace TrainingPlan.Models
         public virtual ICollection<Course> Courses { get; set; }
         
         [JsonIgnore()]
-        public  virtual ICollection<PEandEnCourse> GeneralCourses { get; set; }
+        public  virtual ICollection<GeneralCourse> GeneralCourses { get; set; }
 
         [JsonIgnore()]
         public ICollection<PEandEn> PEandEns { get; set; }

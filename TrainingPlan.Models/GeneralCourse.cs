@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace TrainingPlan.Models
 {
-    public class PEandEnCourse
+    public class GeneralCourse
     {
         public int GCourseId { get; set; }
         public string GCourseName { get; set; }

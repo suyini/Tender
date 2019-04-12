@@ -11,7 +11,7 @@ namespace TrainingPlan.Models
    public  class Scheme
     {
         public int SchemeId { get; set; }
-        public string Grade { get; set; }
+        public int Grade { get; set; }
         //public int MajorId { get; set; }
         public string MajorName { get; set; }
         public int TeacherId { get; set; }
