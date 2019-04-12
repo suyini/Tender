@@ -56,7 +56,7 @@ namespace TrainingPlan.Web.Api.Repository
         /// <param name="id"></param>
         /// <param name="status"></param>
         /// <returns></returns>
-        public List<Course> GetCheck(int id, int status)
+        public IQueryable<List<Course>> GetCheck(int id, int status)
         {
             var teacher = db_context.Teachers;
             
